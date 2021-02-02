@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <script>
+        window.onload = function(){
+            document.querySelector(".menuMobile").addEventListener("click", function(){
+                if (document.querySelector(".menu nav ul").style.display == 'flex'){
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                }else{
+                    document.querySelector(".menu nav ul").style.display = 'flex';
+                }
+            });
+        };
+    </script>
+
+    <title>MediCenter</title>
+</head>
+
+<body>
+    <!--Cabeçalho-->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="./assets/img/logo-medi.png" alt="Logo"> medicenter</a>
+            </div>
+            <div class="menu">
+                <nav>
+                    <div class="menuMobile">
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                    </div>
+                    <ul>
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Home</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section id="banner">
+        <div class="container column">
+            <div class="banner_headline">
+                <h1>Top noth experience</h1>
+                <h2>MediCenter is a responsive template for all screen sizes</h2>
+            </div>
+            <div class="banner_options">
+                <div class="banner1">
+                    <div class="banner_title">Emergency Case</div>
+                    <div class="banner_desc">
+                        If you need a doctor urgently cutside of medicenter opening hours, call
+                        emergency appointment number for emergency service.
+                    </div>
+                    <a href="">Read More</a>
+                </div>
+                <div class="banner2">
+                    <div class="banner_title">Doctor Timetable</div>
+                    <div class="banner_desc">Here at medicenter we have individual doctor's list. Click read more below
+                        to see services and current timetable for our doctors.</div>
+                    <a href="">Read More</a>
+                </div>
+                <div class="banner3">
+                    <div class="banner_title">Opening Hours</div>
+                    <div class="banner_hours">
+                        <div class="semana_hour">
+                            <div class="semana">
+                                Monday - Friday
+                            </div>
+                            <div class="hour">
+                                08:00 - 17:00
+                            </div>
+                        </div>
+                        <div class="semana_hour">
+                            <div class="semana">
+                                Saturday
+                            </div>
+                            <div class="hour">
+                                09:30 - 17:30
+                            </div>
+                        </div>
+                        <div class="semana_hour">
+                            <div class="semana">
+                                Sunday
+                            </div>
+                            <div class="hour">
+                                09:30 - 15:00
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="conteudo">
+        <div class="container">
+            <section>
+                <div class="widgets">
+                    <div class="widgets_title">
+                        <div class="widgets_title_text">Latest News</div>
+                        <div class="widgets_title_bar"></div>
+                    </div>
+                    <div class="widgets_body flex">
+                        <article>
+                            <a href="">
+                                <div class="news_date">
+                                    <div class="news_poster_at">01 Jan 21</div>
+                                    <div class="new_coments">2</div>
+                                </div>
+                                <div class="news_thumbnail">
+                                    <img src="./assets/img/consulta.jpg" alt="">
+                                </div>
+                                <div class="news_title">
+                                    Lorem ipsum dolor it amat velum.
+                                </div>
+                                <div class="new_resume">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet, eros non
+                                    hendrerit lobortis, libero elit eleifend mi, vitae mattis turpis odio gravida ante.
+                                    Proin pretium vulputate nibh laoreet consequat.
+                                </div>
+                            </a>
+                        </article>
+
+                        <article>
+                            <a href="">
+                                <div class="news_date">
+                                    <div class="news_poster_at">01 Jan 21</div>
+                                    <div class="new_coments">2</div>
+                                </div>
+                                <div class="news_thumbnail">
+                                    <img src="./assets/img/consulta.jpg" alt="">
+                                </div>
+                                <div class="news_title">
+                                    Lorem ipsum dolor it amat velum.
+                                </div>
+                                <div class="new_resume">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet, eros non
+                                    hendrerit lobortis, libero elit eleifend mi, vitae mattis turpis odio gravida ante.
+                                    Proin pretium vulputate nibh laoreet consequat.
+                                </div>
+                            </a>
+                        </article>
+
+                        <article>
+                            <a href="">
+                                <div class="news_date">
+                                    <div class="news_poster_at">01 Jan 21</div>
+                                    <div class="new_coments">2</div>
+                                </div>
+                                <div class="news_thumbnail">
+                                    <img src="./assets/img/consulta.jpg" alt="">
+                                </div>
+                                <div class="news_title">
+                                    Lorem ipsum dolor it amat velum.
+                                </div>
+                                <div class="new_resume">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet, eros non
+                                    hendrerit lobortis, libero elit eleifend mi, vitae mattis turpis odio gravida ante.
+                                    Proin pretium vulputate nibh laoreet consequat.
+                                </div>
+                            </a>
+                        </article>
+
+                        <article>
+                            <a href="">
+                                <div class="news_date">
+                                    <div class="news_poster_at">01 Jan 21</div>
+                                    <div class="new_coments">2</div>
+                                </div>
+                                <div class="news_thumbnail">
+                                    <img src="./assets/img/consulta.jpg" alt="">
+                                </div>
+                                <div class="news_title">
+                                    Lorem ipsum dolor it amat velum.
+                                </div>
+                                <div class="new_resume">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet, eros non
+                                    hendrerit lobortis, libero elit eleifend mi, vitae mattis turpis odio gravida ante.
+                                    Proin pretium vulputate nibh laoreet consequat.
+                                </div>
+                            </a>
+                        </article>
+
+                    </div>
+                </div>
+            </section>
+            <aside>
+                <div class="widgets">
+                    <div class="widgets_title">
+                        <div class="widgets_title_text">Departamentos</div>
+                        <div class="widgets_title_bar"></div>
+                    </div>
+                    <div class="widgets_body">
+                        <div class="departamentos"></div>
+                        <div class="departamentos"></div>
+                        <div class="departamentos"></div>
+                        <div class="departamentos"></div>
+                        <div class="departamentos"></div>
+                        <div class="departamentos"></div>
+                    </div>
+                </div>
+                <div class="widgets">
+                    <div class="widgets_title">
+                        <div class="widgets_title_text">Make An Appoiment</div>
+                        <div class="widgets_title_bar"></div>
+                    </div>
+                    <div class="widgets_body">
+                        ...
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </section>
+    <!--Rodape-->
+    <footer>
+        <div class="container flexColumn">
+            <div class="footer_menu">
+                <a href="">
+                    <div class="fm1">
+                        <div class="banner_title">Heath Insurance</div>
+                        <div class="banner_desc">
+                            Here in MediCenter we have individual.
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="fm2">
+                        <div class="banner_title">Medical Records</div>
+                        <div class="banner_desc">
+                            Here in MediCenter we have individual.
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="fm3">
+                        <div class="banner_title">Online Bill Pay</div>
+                        <div class="banner_desc">
+                            Here in MediCenter we have individual.
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="footer_area">
+                <div class="footer_areaitem">
+                    <div class="widgets_title">
+                        <div class="widgets_title_text">MediCenter Clinic</div>
+                        <div class="widgets_title_bar"></div>
+                    </div>
+                    <div class="new_resume">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet, eros non
+                        hendrerit lobortis, libero elit eleifend mi.
+                    </div>
+                    <div class="footer_desc">
+                        MedicalCenter Clinic
+                        <div class="desc">
+                            <div class="desc1">33 Farini Street</div>
+                            <div class="desc2">+123 456 678</div>
+                        </div>
+                        <div class="desc">
+                            <div class="desc1">Keilor East</div>
+                            <div class="desc2">+123 456 678</div>
+                        </div>
+                        <div class="desc">
+                            <div class="desc1">VIC 3033, Australia</div>
+                            <div class="desc2 white">medicenter@mail.com</div>
+                        </div>
+
+                        <div class="footer_social">
+                            <div class="s1"><a href=""><img src="./assets/img/facebook.png" alt=""></a></div>
+                            <div class="s2"></div>
+                            <div class="s3"></div>
+                            <div class="s4"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_areaitem">
+                    <div class="widgets_title">
+                        <div class="widgets_title_text">Latest Posts</div>
+                        <div class="widgets_title_bar"></div>
+                    </div>
+                    <div class="widgets_body">
+                        <div class="opc">
+                            <div class="op1">
+                                <div class="im"><img src="./assets/img/seta-direita.png" alt=""></div>
+                                <div class="op_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                            </div>
+                            <div class="op1">
+                                <div class="im"></div>
+                                <div class="op_desc blue">6 years ago</div>
+                            </div>
+                        </div>
+
+                        <div class="opc">
+                            <div class="op1">
+                                <div class="im"><img src="./assets/img/seta-direita.png" alt=""></div>
+                                <div class="op_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                            </div>
+                            <div class="op1">
+                                <div class="im"></div>
+                                <div class="op_desc blue">6 years ago</div>
+                            </div>
+                        </div>
+
+                        <div class="opc">
+                            <div class="op1">
+                                <div class="im"><img src="./assets/img/seta-direita.png" alt=""></div>
+                                <div class="op_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                            </div>
+                            <div class="op1">
+                                <div class="im"></div>
+                                <div class="op_desc blue">6 years ago</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="footer_areaitem">
+                    <div class="widgets_title">
+                        <div class="widgets_title_text">Lastest Tweets</div>
+                        <div class="widgets_title_bar"></div>
+                    </div>
+                    <div class="widgets_body">
+                        <div class="opc">
+                            <div class="op1">
+                                <div class="im"><img src="./assets/img/seta-direita.png" alt=""></div>
+                                <div class="op_desc gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                            </div>
+                            <div class="op1">
+                                <div class="im"></div>
+                                <div class="op_desc blue">6 years ago</div>
+                            </div>
+                        </div>
+
+                        <div class="opc">
+                            <div class="op1">
+                                <div class="im"><img src="./assets/img/seta-direita.png" alt=""></div>
+                                <div class="op_desc gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                            </div>
+                            <div class="op1">
+                                <div class="im"></div>
+                                <div class="op_desc blue">6 years ago</div>
+                            </div>
+                        </div>
+                        <div class="opc">
+                            <div class="op1">
+                                <div class="im"><img src="./assets/img/seta-direita.png" alt=""></div>
+                                <div class="op_desc gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                            </div>
+                            <div class="op1">
+                                <div class="im"></div>
+                                <div class="op_desc blue">6 years ago</div>
+                            </div>
+                        </div>
+                        <div class="opc">
+                            <div class="op1">
+                                <div class="im"><img src="./assets/img/seta-direita.png" alt=""></div>
+                                <div class="op_desc gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                            </div>
+                            <div class="op1">
+                                <div class="im"></div>
+                                <div class="op_desc blue">6 years ago</div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="footer_copy">
+                Copyright - Todos os direitos reservados
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
